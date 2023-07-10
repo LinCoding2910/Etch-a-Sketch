@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/203/203240.png" type="image/x-icon">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <a href="about.html">About</a>
+        <div id="heading">Etch-a-Sketch</div>
+        <a href="guide.html">Guide</a>
+    </div>
+    <div id="container">
+        <div id="options">
+            <div id="color-options">
+            <div class="colors-and-grids">Color Options</div>
+                <button onclick="changeColorOption('single')" id="single" class="color-option-button">Single</button>
+                <button onclick="changeColorOption('rainbow')" id="rainbow" class="color-option-button">Rainbow</button>
+                <button onclick="changeColorOption('shade')" id="shade" class="color-option-button">Shade</button>
+                <button onclick="changeColorOption('light')" id="light" class="color-option-button">Light</button>
+            </div>
+            <button onclick="clearGrid()" class="colors-and-grids">Clear</button>
+            <select id="grids" class="colors-and-grids">
+                <option value="1">1 x 1</option>
+                <option value="2">2 x 2</option>
+                <option value="3">3 x 3</option>
+                <option value="4">4 x 4</option>
+                <option value="5">5 x 5</option>
+                <option value="6">6 x 6</option>
+                <option value="7">7 x 7</option>
+                <option value="8">8 x 8</option>
+                <option value="9">9 x 9</option>
+                <option value="10">10 x 10</option>
+                <option value="11">11 x 11</option>
+                <option value="12">12 x 12</option>
+                <option value="13">13 x 13</option>
+                <option value="14">14 x 14</option>
+                <option value="15">15 x 15</option>
+                <option value="16">16 x 16</option>
+                <option value="17">17 x 17</option>
+                <option value="18">18 x 18</option>
+                <option value="19">19 x 19</option>
+                <option value="20">20 x 20</option>
+                <option value="21">21 x 21</option>
+                <option value="22">22 x 22</option>
+                <option value="23">23 x 23</option>
+                <option value="24">24 x 24</option>
+                <option value="25">25 x 25</option>
+                <option value="26">26 x 26</option>
+                <option value="27">27 x 27</option>
+                <option value="28">28 x 28</option>
+                <option value="29">29 x 29</option>
+                <option value="30">30 x 30</option>
+                <option value="31">31 x 31</option>
+                <option value="32">32 x 32</option>
+                <option value="33">33 x 33</option>
+                <option value="34">34 x 34</option>
+                <option value="35">35 x 35</option>
+                <option value="36">36 x 36</option>
+                <option value="37">37 x 37</option>
+                <option value="38">38 x 38</option>
+                <option value="39">39 x 39</option>
+                <option value="40">40 x 40</option>
+                <option value="41">41 x 41</option>
+                <option value="42">42 x 42</option>
+                <option value="43">43 x 43</option>
+                <option value="44">44 x 44</option>
+                <option value="45">45 x 45</option>
+                <option value="46">46 x 46</option>
+                <option value="47">47 x 47</option>
+                <option value="48">48 x 48</option>
+                <option value="49">49 x 49</option>
+                <option value="50">50 x 50</option>
+                <option value="51">51 x 51</option>
+                <option value="52">52 x 52</option>
+                <option value="53">53 x 53</option>
+                <option value="54">54 x 54</option>
+                <option value="55">55 x 55</option>
+                <option value="56">56 x 56</option>
+                <option value="57">57 x 57</option>
+                <option value="58">58 x 58</option>
+                <option value="59">59 x 59</option>
+                <option value="60">60 x 60</option>
+                <option value="61">61 x 61</option>
+                <option value="62">62 x 62</option>
+                <option value="63">63 x 63</option>
+                <option value="64">64 x 64</option>
+            </select>
+        </div>
+        <div id="grid-container"></div>
+    </div>
+</body>
+</html>
